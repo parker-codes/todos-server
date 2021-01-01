@@ -1,0 +1,6 @@
+CREATE TABLE todos (
+  id SERIAL PRIMARY KEY,
+  title VARCHAR NOT NULL,
+  created_at TIMESTAMP NOT NULL,
+  completed_at TIMESTAMP
+)
